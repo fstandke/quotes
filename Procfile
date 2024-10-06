@@ -1,1 +1,1 @@
-web:g unicorn quotes:app
+web: gunicorn quotes:app
