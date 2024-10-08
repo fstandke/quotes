@@ -32,4 +32,4 @@ def process():
     quotedata = Favquotes(author=author, quote=quote)
     db.session.add(quotedata)
     db.session.commit()
-    return redirect(url_for('index'))
+    return redirect(url_for('index'))   
